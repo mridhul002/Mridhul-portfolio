@@ -1,0 +1,162 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menue{
+    background-color:lightblue;
+    opacity: 95%;
+    width: 100%;
+} 
+ .logo{
+    font-weight: 600;
+ }
+ 
+ 
+ .banner{
+    background-image: url(./image/port\ img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+    opacity: 0;
+    transition: all 2s;
+}
+.in-bdiv{
+    width: 250px;
+    font-size: 30px;
+}
+.name{
+    font-size: 40px;
+    font-weight: 600;
+    background: 
+    linear-gradient(45deg,#4158de 10%,#c850ce 45%,#ffcc7e 50%);
+    background-clip: text;
+    color: transparent;
+    
+}
+u{
+    color:aqua;
+}
+.info{
+    padding-bottom: 20px;
+    margin-top: -25px;
+    
+}
+
+.abt{
+    padding: 15px 0px;
+}
+.button1:hover{
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: green;
+    transform: scale(1.5);
+}
+.button2:hover{
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #d73f8c;
+    transform: scale(1.5);
+}
+.button3:hover{
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: blue;
+    transform: scale(1.5);
+}
+.button4:hover{
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: blue;
+    transform: scale(1.5);
+}
+.con-btn{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.social{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.cont{
+    padding: 50px;
+}
+.mri-img{
+    border: 5px dashed #52cfcd
+}
+.mri-img:hover{
+    padding: 10px;
+    border-radius: 10px;
+    transform: scale(1.2);
+
+}
+.hidden{
+    opacity:0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+.show{
+   opacity: 1;
+   filter: blur(0);
+   transform: translateX(0);
+}
+
+.u-line{
+    position: relative;
+    cursor: pointer;
+}
+
+.u-line::after{
+    content: "";
+    align-items: center;
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: white;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.u-line:hover::after{
+    align-items: center;
+    transform: scaleX(1);
+}
+
+.u1-line{
+    position: relative;
+    cursor: pointer;
+}
+
+.u1-line::after{
+    content: "";
+    align-items: center;
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 25%;
+    left: 0;
+    background-color: black;
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.u1-line:hover::after{
+    align-items: center;
+    transform: scaleX(1);
+}
